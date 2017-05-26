@@ -1,4 +1,21 @@
+export default {
+  // for displaying on the <select> dropdown
+  name: 'Testing some important stuff mannnn..',
+
+  // for highlight.js
+  // see https://highlightjs.readthedocs.io/en/latest/css-classes-reference.html#language-names-and-aliases
+  language: 'discord.js',
+
+  // actual generator
+  // data is just a javascript object that looks like this:
+  // { "content": "message content...", "embed": { ... } }
+  generateFrom(data) {
+  
 const embed = {
   "title": "Hello I am @Fatty and I will be assiting you for further notice."
 };
 channel.send("This is a test.", { embed });
+
+  },
+};
+
