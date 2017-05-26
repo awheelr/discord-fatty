@@ -1,0 +1,4 @@
+const embed = {
+  "title": "Hello I am @Fatty and I will be assiting you for further notice."
+};
+channel.send("This is a test.", { embed });
